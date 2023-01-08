@@ -10,7 +10,7 @@
     "dev": "concurrently \"yarn start\" \"yarn start-backend\"",
     "start": "yarn workspace app start",
     "predeploy": "yarn tsc && yarn build:all",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist-types",
     "start-backend": "yarn workspace backend start",
     "build:backend": "yarn workspace backend build",
     "build:all": "backstage-cli repo build --all",
