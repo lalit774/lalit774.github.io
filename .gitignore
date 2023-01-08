@@ -1,3 +1,6 @@
+# macOS
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -6,6 +9,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -67,11 +71,31 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+=======
+# Coverage directory generated when running tests with coverage
+coverage
+
+# Dependencies
+node_modules/
+
+# Yarn 3 files
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Node version directives
+.nvmrc
+>>>>>>> 04f94ff (Initial commit)
 
 # dotenv environment variables file
 .env
 .env.test
 
+<<<<<<< HEAD
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
@@ -102,3 +126,23 @@ dist
 
 # TernJS port file
 .tern-port
+=======
+# Build output
+dist
+dist-types
+
+# Temporary change files created by Vim
+*.swp
+
+# MkDocs build output
+site
+
+# Local configuration files
+*.local.yaml
+
+# Sensitive credentials
+*-credentials.yaml
+
+# vscode database functionality support files
+*.session.sql
+>>>>>>> 04f94ff (Initial commit)
